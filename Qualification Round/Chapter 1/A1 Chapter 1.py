@@ -16,9 +16,6 @@ def solution():
 
     for i in range(str_len):
         s = string[i]
-        
-        
-
         if(s in vowels):
             if(s in v_dist): v_dist[s] += 1
             else: v_dist[s] = 1
